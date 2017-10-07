@@ -1,0 +1,125 @@
+.fontt{
+	font-family: "FontAwesome"
+}
+.red{
+	border: 2px red solid;
+}
+.blue{
+	border: 2px blue solid;
+}
+.orange{
+	border: 2px orange solid;
+}
+.yellow{
+	border: 2px yellow solid;
+}
+.pink{
+	border: 2px pink solid;
+}
+.logo{
+	margin: auto;
+	height: 10%;
+	width: 20%;
+}
+.baner{
+	background-image:url("../img/banner.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.iconroj{
+	width: 10%;
+	height: 10%;
+	position: relative;
+	top: 175px;
+	left: 42%;
+}
+.greybg{
+	background-color: #353232;
+}
+.pdlft{
+	width: 40%;
+}
+.tabla{
+	width: 100%;
+}
+.divisoria{
+	border:1px #828282 solid;
+}
+.txt-white{
+	color: white;
+}
+.cuadroverde{
+	border: 2px #36DF52 solid;
+	border-radius: 10%;
+	width: 80%;
+	height: 80%;
+	color: #36DF52;
+}
+.bnaranjo{
+	background-color: #C79355;
+	border-radius: 5%;
+	color: white;
+	padding: 10px;
+	display: block;
+	/*margin: 5%;*/
+}
+.bamarillo{
+	background-color: #FAC612;
+	color: white;
+	border-radius: 5%;
+	padding: 10px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+
+}
+.bgorange{
+	background-color: #FACC2A;
+}
+.cpc{
+	width: 100%;
+	height: 100%;
+}
+.fot{
+	width: 170px;
+	height: 170px;
+	margin: 3%;
+}
+.fot2{
+	width: 250px;
+	height: 250px;
+	margin: auto;
+}
+.mtop{
+	margin-top:0;
+	padding-bottom: 10%;
+}
+.blackbg{
+	background-color:black;  
+}
+.link{
+	text-decoration: none;
+}
+.padingmovi{
+	margin: 1.5%;
+}
+.pequeno{
+	font-size: 12px;
+	margin-bottom: 5%
+}
+.maspequeno{
+	font-size: 9px;
+	margin-top:3%;
+	margin-bottom: 3%;
+}
+.mtop2{
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+.foot{
+	background-color: rgba(211, 211, 211, 0.33);
+}
+
+.wyh{
+	width: 100%;
+	height: 250px;
+}

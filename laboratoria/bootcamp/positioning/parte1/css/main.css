@@ -1,0 +1,18 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	width: 200px;
+	height: 200px;
+	position: static;
+}
+.red {
+	background-color: #ee3e64;
+}
+.blue{
+	background-color: #44accf;
+}
+.green{
+	background-color: #b7d84b;
+}

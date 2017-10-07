@@ -1,0 +1,32 @@
+.fuera{
+	padding-right: 10px;
+	display: inline-block;
+	border: 1px grey solid;	
+}
+.contenedoru, .contendord{
+	display: inline-block;
+	margin: 1px 10px 1px 10px;
+	width: 50%;
+}
+.contenedoru{
+	float: left;
+}
+.contendord{
+	float: right;
+	margin-right: 30%;
+}
+.cajaa, .cajab{
+	display: inline-block;
+	border: 10px yellow solid;
+	margin: 10px;
+}
+.cajaa{
+	margin-right: 50%;
+}
+.cajab{
+	margin-left: 50%;
+}
+
+p{
+	padding: 15%;
+}

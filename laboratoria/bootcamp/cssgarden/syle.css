@@ -1,0 +1,46 @@
+body{
+	background-image: url(sin-titulo.jpg);
+	font-size: 14px;
+	font-family: "Comic Sans MS";
+}
+
+.page-wrapper{
+	margin-right: 15em;
+	margin-left: 15em;		 
+	clear:both;
+	background-color:rgba(243,247,180,.9);
+}
+
+.summary{
+	color:#382271;
+}
+
+abbr{
+	color:#13649B;
+}
+
+.summary, .preamble, #zen-supporting, .sidebar{
+	margin-right: 5em;
+	margin-left: 5em;
+}
+
+h1, h2{
+	text-align: center;
+	color: #614733;
+}
+
+h3 {
+	color: #B71C86;
+	text-align: center;
+}
+
+p{
+	font-family: "Comic Sans MS", sans-serif;
+	color: #720D6A;
+}
+
+a{
+	color: #723A0F;
+	font-size: 15px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}

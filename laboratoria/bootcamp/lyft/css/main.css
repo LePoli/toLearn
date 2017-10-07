@@ -1,0 +1,49 @@
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 13px;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: auto;
+}
+
+.initial-page{
+	background-image: url("../img/giphy (9).gif");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.index-header{
+	margin: 20% 0%;
+}
+.index-img{
+	width: 100%;
+	height: auto;
+}
+.margin-buttons{
+	margin-top: 80%;
+	margin-bottom:20%;
+	padding: 10% 0%;
+}
+
+.disp-inl{
+	display: inline;
+}
+#signup-button, .buttonss{
+	background: -webkit-radial-gradient(#f9f, #90c);
+   	background: -moz-radial-gradient(#f3c, #606);
+   	border: none;
+   	color: white;
+   	-moz-box-shadow: 0px 0px 30px #ffffff; 
+    -webkit-box-shadow: 0px 0px 30px #ffffff; 
+    box-shadow: 0px 0px 30px #ffffff;
+}
+#login-button{
+	background: transparent;
+   	border: -webkit-radial-gradient(#f9f, #90c);
+   	border: -moz-radial-gradient(#f3c, #606);
+   	color: white;
+   	-moz-box-shadow: 0px 0px 30px #ffffff; 
+    -webkit-box-shadow: 0px 0px 30px #ffffff; 
+    box-shadow: 0px 0px 30px #ffffff;
+}

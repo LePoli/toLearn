@@ -1,0 +1,51 @@
+.padre{
+	position: relative;
+	width: 1100;
+	margin:0 auto;
+	padding-top: 100px;
+}
+.icono{
+	color:lightgreen;
+	font-size: 50px;	
+}
+
+.contenedor{
+	float: left;
+	border:1px solid lightgreen;
+	text-align: center;
+	margin-left: 10px;
+	background-color:white;
+	color:lightgreen; 
+	transition:transform 1.5s ease-out;
+}
+.bic{
+	width: 230px;
+	height: 90px;
+	top: 0;
+	margin: 5px;
+}
+.parr, .tit{
+	width: 230px;
+	height: 110px;
+	top: 0;
+	margin: 5px;
+		
+}
+
+.parr{
+	font-size: 15px;
+	font-family: arial, cursive;
+}
+.tit{
+	font-size: 15px;
+	font-family: 'Monoton', cursive;
+}
+
+.contenedor:hover .icono:before, .contenedor:hover{
+	color:white;
+	background-color:lightgreen;
+}
+
+.contenedor:hover{
+    transform: scale(1.1)    
+}

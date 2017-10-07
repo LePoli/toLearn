@@ -1,0 +1,93 @@
+*{
+  margin: 0px;
+}
+button{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.ventana-em{
+  background-color: #fff;
+  border-radius: 2%;
+  margin: 20% 40% 20% 40%;
+  padding: 3% 0% 2% 3%;
+}
+.capa-a{
+  z-index: -1;
+}
+.capa-b{
+  z-index: 1;
+}
+body{
+  background-color: lightgreen;
+}
+.background-balck{
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  z-index: 2;
+  box-sizing: border-box;
+  height: 100vh;
+}
+#alerta{
+  display: none;
+}
+.jconfirm-title-c{
+  padding: 3% 0% 0% 4%;
+}
+.jconfirm-content{
+  padding: 0% 6%;
+}
+
+.jconfirm.jconfirm-osa .jconfirm-bg {
+  background-color: rgba(0, 0, 0, 0.67);
+}
+.jconfirm.jconfirm-osa .jconfirm-box {
+  background-color: white;
+  box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.2), 0 13px 19px 2px rgba(0, 0, 0, 0.14), 0 5px 24px 4px rgba(0, 0, 0, 0.12);
+  padding: 30px 25px 10px 25px;
+  margin: 0% 28% 0% 28%;
+  border-radius: 10px;
+
+}
+.jconfirm.jconfirm-osa .jconfirm-box div.jconfirm-closeIcon {
+  color: rgba(0, 0, 0, 0.87);
+}
+.jconfirm.jconfirm-osa .jconfirm-box div.jconfirm-title-c {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  text-align: left;
+  margin-bottom: 8%;
+  margin-left: 4%;
+}
+.jconfirm.jconfirm-osa .jconfirm-box div.jconfirm-content {
+  text-align: left;
+  color: rgba(0, 0, 0, 0.87);
+  color: black;
+  margin-left: 4%;
+}
+.jconfirm.jconfirm-osa .jconfirm-box .jconfirm-buttons {
+  text-align: center;
+  margin-top: 9%;
+  margin-bottom: 1%; 
+}
+.jconfirm.jconfirm-osa .jconfirm-box .jconfirm-buttons button {
+  text-transform: uppercase;
+  font-weight: 500;
+  /*background-color: #2676B8;*/
+  /*padding: 5px 70px;*/
+  padding: 5px 30px;
+  margin: 0% 3%;
+  color: white;
+
+}
+.jconfirm.jconfirm-osa .jconfirm-box .jconfirm-buttons button:hover{
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: #04457A;
+  /*padding: 5px 70px;*/
+  padding: 5px 30px;
+  color: white;
+}
+

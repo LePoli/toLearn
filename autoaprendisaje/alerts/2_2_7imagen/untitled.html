@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="materialize.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	  rel="stylesheet">
+	<link href="jquery-confirm/css/jquery-confirm.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="base.css">
+	<link rel="stylesheet" type="text/css" href="baseOsa.css">
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="alerta.css">
+</head>
+<body class="capa-a flex h-center login">
+	<div id="body">
+		<div id="login-card" class="flex flex-column v-center">
+			<div class="img login-logo">
+				<img src="login-logo-a.png" alt="logo">
+			</div>
+			<div action="" role="login">
+				<div class="login-card">
+					<div class="input-field col">
+						<input id="email" name="email" type="text" class="validate">
+						<label for="email">
+							Email
+						</label>
+					</div>
+					<div class="input-field col">
+						<input id="password" name="password" type="password">
+						<label for="password">
+							Contraseña
+						</label>
+						<div>
+						</div>
+					</div>
+					<button id="confirmar" class="btn">
+						confirmar
+					</button>
+					<div class="row">
+						<div class="s6 col">
+							<a href="http://osa-app.com/preguntasfrecuentes.html" target="_blank">Preguntas Frecuentes</a>
+						</div>
+						<div class="s6 col right-align">
+							<a href="http://osa-app.com/terminosycondiciones.html" target="_blank">Términos y Condiciones</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<script type="text/javascript" src="jquery-3.1.1.js"></script>
+
+	<!-- jquery confirm -->
+	<script type="text/javascript" src="jquery-confirm/js/jquery-confirm.js"></script>
+	<script type="text/javascript" src="confirm.js"></script>
+	<!--template-->
+	<script type="text/template" id="alert-form">
+		<div role="form">
+			<div class="row">
+				<div class="input-field col s12">
+					<input id="titulo" name="titulo" type="text" class="validate">
+					<label for="titulo">
+						Titulo
+					</label>
+				</div>
+				<div class="input-field col s12">
+				<input id="departamento" name="departamento" type="text">
+					<label for="departamento">
+						Departamento <i class="material-icons right-align margin-right-arrow button-collapse" id="departamento-sidebar">play_arrow</i>
+					</label>
+				</div>
+				<div class="input-field col s12">
+					<input id="hralimite" name="hralimite" type="text">
+					<label for="hralimite">
+						Hr limite
+					</label>
+					<div>
+					</div>
+				</div>
+				<div class="img-drag-drop col s12">
+					<div class="center-align box-drag-drop">
+						<input type="file" name="drag-drop" id="drag-drop" class="hide">
+						<div class="">
+							<span class="text-white edit-spam"><i class="material-icons">edit</i></span>
+							<span class="text-white close-spam"><i class="material-icons">close</i></span>
+
+						</div>
+						<label for="drag-drop" id="drag-drop-label">
+						</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12 left-align" id="show-more">
+						<a href="#" id="more">+ más opciones</a>
+					</div>
+					<div class="col s12 left-align hidden-items" id="show-less">
+						<a href="#" id="less">- ocultar opciones</a>
+					</div>
+				</div>
+				<div class="more-options row hidden-items" id="more-options">
+					<div class="input-field col s12">
+						<input id="descripcion" name="descripcion" type="text" class="validate">
+						<label for="descripcion">
+							Descripción
+						</label>
+					</div>
+					<div class="input-field col s12">
+						<input id="tipotarea" name="tipotarea" type="text" class="validate">
+						<label for="tipotarea">
+							Tipo de tarea
+						</label>
+					</div>
+					<div class="input-field col s6">
+						<input id="fechainicio" name="fechainicio" type="text" class="validate">
+						<label for="fechainicio">
+							Fecha inicio
+						</label>
+					</div>
+					<div class="input-field col s6">
+						<input id="fechatermino" name="fechatermino" type="text" class="validate">
+						<label for="fechatermino">
+							Fecha termino
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+	</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+.l1{
+	/*float: left;*/
+	display: inline-block;
+	margin-right: 20px;
+}
+.l2{
+	overflow: hidden;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.nombres{
+	position: relative;
+	top: -30px;
+	left: 120px;
+	color: white;
+	font-size: 12px;
+}
+.contenedor{
+	position: relative;
+	top: 10px;
+	left: 10px;
+}

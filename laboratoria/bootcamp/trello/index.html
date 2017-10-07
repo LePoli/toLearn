@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Trello</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body class="bckg-LG">
+	<header class="bckg-DG">
+		<div class="row">
+			<div class="col-md-2 b-black">
+				<div class="row">
+					<div class="col-md-7">
+						<div class="contiene-logo">
+							<img src="img/trello-logo-white.png" class="imagen">
+						</div>
+					</div>
+					<div class="col-md-5">
+						Tu tablero						
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+              <FORM method=GET action="http://www.google.es/search"> 
+                <fieldset> 
+                  <input type=hidden name=ie value=UTF-8 />                          
+                  <input type="text" name="q" placeholder="Buscar..." size="20"/> 
+                  <font size=-1>                          
+                    <input type=hidden name=domains value="http://www.google.com"/><br>                        
+                  <INPUT type=hidden  id="x"/> 
+                  </font> 
+                </fieldset> 
+              </FORM> 
+            </div>  
+		</div>
+	</header>
+	<section>
+		<div class="container-fluid">
+			<div class="row">				
+				<div class="col-md-12" id="inicio0">
+					<form action="#">
+						<div onclick="anadirTareas()">
+							<span><i class="fa fa-plus" aria-hidden="true"></i></span><label> Añadir Lista</label>
+						</div>
+					</form>	
+				</div>
+				<div class="col-md-12">
+					<div class="contenedor" id="agregarLista">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="https://use.fontawesome.com/196169a386.js"></script>	
+	<script type="text/javascript" src="js/script.js"></script>	
+</body>
+</html>

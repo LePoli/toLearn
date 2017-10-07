@@ -1,0 +1,25 @@
+body, .box, .contenedor{
+	margin: 0;
+    padding: 0;
+    border: 0;
+}
+.box{
+	height: 100px;
+	width: 25%;
+	float: right;
+}
+.contenedor{
+	height: 300px;
+	width: 600px;
+	border: 2px gray solid;
+	clear: both;
+}
+.amarillo{
+	background-color: yellow;
+}
+.rojo{
+	background-color: red;
+}
+.azul{
+	background-color: blue;
+}

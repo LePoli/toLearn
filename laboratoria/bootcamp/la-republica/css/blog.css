@@ -1,0 +1,64 @@
+.boxes {
+	margin-top: 20px;
+}
+
+.content{
+	border: 1px solid gray;
+}
+
+.blogs {
+	padding-left: 10px;
+	font-family: 'Open Sans';
+
+}
+.lo-ultimo-en-blogs {
+	padding-left: 10px;
+	font-family: 'Oswald';
+	color:#9EBFB8;
+}
+.arrow {
+	display:inline-block;
+}
+.title {
+	padding-top: 30px;
+	font-family: 'Open Sans';
+	font-size: 10px;
+
+}
+.subtitle {
+	padding-bottom: 30px;
+	font-size: 15px;
+	font-family: 'Open Sans';
+}
+.profile {
+	background-color: #E9E7E7;
+	margin:10px 10px;
+}
+.fotoperfil {
+	border:2px solid white;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.img-box-titles {
+	display:inline-block;
+	padding-left: 10px;
+}
+.img-blog,.img-title	{
+	font-family: 'Open Sans';
+}
+.end {
+	margin-bottom: 30px;
+}
+
+.black {
+	background-color: black;
+	visibility:hidden;
+	display:none;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.footer-mobile {
+	color:white;
+	font-family: 'Open Sans';
+}

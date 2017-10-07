@@ -1,0 +1,22 @@
+.red{
+	background-color: red;
+	position: static;
+	width: 500px;
+	height: 500px;
+}
+.purple{
+	background-color: purple;
+	position: absolute;
+	height: 250px;
+	width: 250px;
+	top:125px;
+	left:125px;
+}
+.yellow{
+	background-color: yellow;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 125px;
+	height: 125px;
+}

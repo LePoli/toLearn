@@ -1,0 +1,20 @@
+
+body{
+	margin: 0;
+}
+.amarillo{
+	background-color: yellow;
+	/*padding-bottom: 50px;*/
+}
+.rojo{
+	background-color: red;
+	/*padding-bottom: 50px;*/
+}
+
+.box{
+	width: 200px;
+	height: 100px;
+	padding: 10px;
+	margin-bottom: 10px;
+
+}

@@ -1,0 +1,94 @@
+
+
+/*h1 de la primera secion Contáctese con nosotros*/
+.contactese{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 34px;
+	margin-bottom: 4%;
+	color: black;
+
+}
+
+.parrafo-contactese{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	margin-bottom: 4%;
+}
+
+/*h1 seccion 2 Elija un destinatario*/
+.elija{
+	margin-bottom: 4%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 28px;
+}
+
+
+/*row de cada checklist*/
+.separar{
+	margin-bottom: 1%;
+}
+
+/*ultimo row de checklist archivos periodisticos*/
+.archivos{
+	margin-bottom: 5%;
+}
+
+/*tipografias de cada checklist*/
+.izq, .der{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+
+.type{
+		    background-color: #e5e5e5 !important;
+
+}
+
+.form-group{
+	color: #555555;
+}
+
+
+/*casillas de formulario nombre email telefonos*/
+.form-control{
+	margin-bottom: 4%;
+	border-radius: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	 background-color: #e5e5e5 !important;
+	 -webkit-box-shadow: -1px -1px 0px 0px rgba(163,163,163,1);
+-moz-box-shadow: -1px -1px 0px 0px rgba(163,163,163,1);
+box-shadow: -1px -1px 0px 0px rgba(163,163,163,1);
+}
+
+.telefonos{
+	margin-bottom: 0.5% !important;
+}
+
+
+.opcional{
+	font-family: 'Open Sans', sans-serif;
+	font-size:10px; 
+	margin-top: -3%!important
+}
+
+/*casilla de mensaje*/
+.mensaje{
+	padding-top: 3%;
+	padding-bottom: 30%;
+	  border-radius: 0px !important;
+	  border-top: 1px solid #8F8F8F;
+}
+
+/*boton de enviar*/
+.enviar{
+	padding: 1% 11% 1% 11%;
+	background-color: black;
+	color: white;
+	margin-bottom: 3%;
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+}
+
+
+

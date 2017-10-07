@@ -1,0 +1,22 @@
+.more-button{
+	color: white;
+    background-color: #284490;
+    border-radius: 100%;
+    padding: 5%;
+    /* width: 15%; */
+    text-align: center;
+}
+.margin2{
+	margin-left: 2%;
+	margin-top: 1%;
+}
+.text-blue{
+	color: #284490;
+}
+.titulo-laboral{
+	color: #284490;
+	text-align: justify;
+}
+.title-bolsatrabajo{
+	font-family: 'Great Vibes', cursive;
+}

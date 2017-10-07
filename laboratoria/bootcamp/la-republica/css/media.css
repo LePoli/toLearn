@@ -1,0 +1,9 @@
+@media (max-width : 479px) {
+
+
+	.black {
+		
+		visibility:visible;
+		display: block;
+	}
+}

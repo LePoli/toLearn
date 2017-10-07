@@ -1,0 +1,56 @@
+@font-face {
+    font-family:'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Dosis Regular'), local('Dosis-Regular'), url(http://themes.googleusercontent.com/static/fonts/dosis/v1/xIAtSaglM8LZOYdGmG1JqQ.woff) format('woff');
+}
+body, div, h1, h2, h3, h4, h5, h6, 
+p, ul, ol, li, dl, dt, dd, img, form, 
+fieldset, input, textarea, blockquote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background: #ffffff;
+}
+
+li{
+	display: block;
+}
+.cuadrado{
+	width: 120px;
+	height: 80px;
+	background-color: black;
+	display:none;
+	margin-left: 120px;
+	padding-top:40px;
+
+}
+.forma:hover .cuadrado{
+	display: block;
+}
+.forma{
+	width: 120px;
+	height: 120px;
+	display: table-cell;
+	text-decoration: none;
+	font-family: "Dosis";
+	font-size: 30px;
+}
+.aqua{
+	background-color:aqua;
+	color:aqua;
+}
+.lblue{
+	background-color:lightblue;
+	color:lightblue;
+}
+.salmon{
+	background-color:salmon;
+	color:salmon;
+}
+.pink{
+	background-color:pink;
+	color:pink;
+}

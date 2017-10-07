@@ -1,0 +1,64 @@
+.bckg-black{
+	background-color: black;
+	padding: 2%;
+}
+.larrys{
+	background-color: white;
+	background-image: url(../img/larrys-lado.jpg);
+	background-position: center;
+	background-size: initial;
+	background-repeat: no-repeat;
+	padding: 18% 1% .5% 1%;
+	border: 1px black solid;
+}
+.bckg-semillas{
+	background-color: white;
+	background-image: url(../img/semillas-banner.png);
+	background-position:bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px black solid;	
+}
+.bckg-grow{
+	background-color: white;
+	background-image: url(../img/growgiiif2.gif);
+	background-position: center;
+	background-size: cover;
+	/*background-repeat: no-repeat;*/
+	border: 1px black solid;
+}
+.inv-black{
+    background-color: rgba(0, 0, 0, .4);
+    width: 100%;
+    height: 100%;
+}
+.inv-green{
+    background-color: rgba(64, 132, 75, .6);
+    width: 100%;
+    height: 100%;
+}
+.larry-font{
+	margin-top: 10%;
+	font-family: 'Lakki Reddy', cursive;
+	font-size: 20px;
+}
+.txt-green{
+	color: green; 
+}
+.lateral-margin{
+	margin-left:5%;
+	margin-right: 5%;
+}
+.linea-divid{
+	border: 1px white solid;
+}
+.mrg-10{
+	margin-top: 6%;
+	margin-bottom: 6%;
+}
+.larry-fonts{
+	font-family: 'Lakki Reddy', cursive;
+}
+.txt-white{
+	color: white;
+}

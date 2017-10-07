@@ -1,0 +1,77 @@
+
+.icon-font{
+	font-size: 60px;
+}
+.selector-grey{
+	border-right: 1px solid grey;
+	padding: 2% 1%;
+}
+input{
+	border: none;
+	width: 20%;
+}
+.p-inpt {
+    /*border: 1px solid grey;
+    width: 100%;*/
+    padding: 2%;
+}
+.button-dropdown{
+	border: 1px solid grey;
+    padding-left: 1%;
+    width: 230%;
+    border-radius: 2%;
+    margin-top: 50%; 
+}
+.img{
+	border-right: 1px solid grey;
+	padding-right: 2%;
+}
+.down-arow{
+	margin-left: 2%;
+}
+.divider-head{
+	border-bottom: 1px solid grey;
+}
+.margin-section-top{
+	margin-top: 1%;
+}
+.clas-letras-moradas{
+	color:purple;
+}
+.shinie-border{
+	-moz-box-shadow: 0px 0px 30px purple; 
+    -webkit-box-shadow: 0px 0px 30px #ffffff; 
+    box-shadow: 0px 0px 30px #ffffff;
+}
+
+button{
+	margin-top: 5%;
+	padding-bottom: 100%;
+}
+
+.div-avanza {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    position: relative;
+    -webkit-animation-name: mustach; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+    animation-name: mustach;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;    
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mustach {
+    0%   {background-color: transparent; left:-700px; top:10%;}
+    100% {background-color: transparent; left: 50%; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes mustach {
+    0%   {background-color: transparent; left:-700px; top:10%;}
+    100% {background-color: transparent; left: 50%; top:0px;}
+}

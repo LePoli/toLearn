@@ -1,0 +1,19 @@
+
+div{
+	height:40px;
+    border-right:5px purple solid;
+    border-left:5px purple solid;
+    border-top:14px purple solid;
+    border-bottom:14px purple solid;
+    padding:20px 10px 70px 60px;
+	margin:200px;
+	background-color:pink;
+	text-align: center;
+}
+
+p{
+	padding:10px;
+	background-color:white;
+	border:1px black dashed;
+	margin:1px;	
+}

@@ -1,0 +1,420 @@
+img{
+  width: 50%;
+  height: 50%;
+}
+.botonComparar {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  background-color: #dd0021;
+  color: white;
+  padding: 10px;
+  -webkit-box-shadow: 2px 2px 5px #999;
+  -moz-box-shadow: 2px 2px 5px #999;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  border-radius: 50%;
+  vertical-align: middle;
+  z-index: 100;
+  i {
+    font-size: 30px;
+  }
+  strong {
+    font-size: 12px;
+  }
+}
+header{
+	
+	*{
+		list-style:none;
+	}
+
+	p{
+			font-size:11px;
+	}
+
+	a{
+		text-decoration:none;
+		background-color:transparent;
+	}
+
+
+	#links-header{
+		.l-box, .r-box{
+			line-height:30px;
+		}
+		.l-box a{
+			color: #666;
+			font-size:10px;
+		}
+		.r-box .text-right{
+			text-align: right;
+		}
+		.r-box, .r-box a{
+			color: #000;
+			font-size:11px;
+		}
+		.zona .despacho p{
+			line-height:5px;
+		}
+		.zona{
+			margin-top:40px;
+		}
+		.zona .despacho .user{
+			font-size:13;
+			text-align: right;
+			border-right: 1px solid #666;
+		}
+		.zona .despacho .user .enlace-iniciar{
+			margin-right: 20px !important;
+			padding-left: 10px;
+			border-left: 1px solid #666;
+		}
+	}
+}
+	
+
+#slider {
+  position: relative;
+  width: $width; 
+  height: $height;
+  margin: auto;
+  .trigger {
+    cursor: pointer;
+    position: absolute;
+    width: 35px; 
+    height: 50%;
+    padding: 0; 
+    margin: 0;
+    outline: 0; 
+    border: 0;
+    background: transparent;
+    &:hover { 
+      background: rgba(255,255,255,.5); 
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      width: 10px; height: 10px;
+      margin: auto;
+      border-style: solid;
+    }
+  }
+  .prev { 
+    left: 0; 
+    &:before {
+      left: 5px;
+      border-width: 3px 0 0 3px;
+      border-color: $arrows transparent transparent $arrows;
+      transform: rotate(-45deg);
+    }
+  }
+  .next { 
+    right: 0; 
+    &:before {
+      right: 5px;
+      border-width: 3px 3px 0 0;
+      border-color: $arrows $arrows transparent transparent;
+      transform: rotate(45deg);
+    }
+  }
+  .frame {
+    position: absolute;
+    top: 0; left: 35px; 
+    right: 35px; 
+    bottom: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    overflow: hidden;
+    .item {
+      position: absolute;
+      top: 0; 
+      bottom: 0;
+      width: 25%; 
+      height: 100%;
+      .inset {
+        position: absolute;
+        top: 0; 
+        left: 0; 
+        right: 0; 
+        bottom: 0;
+        margin: $gap * 2 $gap;
+        overflow: hidden;
+        .title { 
+          margin: 10px 0; 
+          font-weight: bold; 
+          text-align: center; 
+        }
+        .caption { 
+          font-size: 8pt;
+          img{
+            width:100%;
+          }
+        }
+      }
+    }
+  }
+}
+#slider3 {
+  @extend #slider;
+  height:$height2;
+  .trigger3 {
+    @extend .trigger;
+    &:hover { 
+      background: rgba(255,255,255,.5); 
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      width: 10px; height: 10px;
+      margin: auto;
+      border-style: solid;
+    }
+  }
+  .prev3 { 
+    @extend .prev;
+    &:before {
+      left: 5px;
+      border-width: 3px 0 0 3px;
+      border-color: $arrows transparent transparent $arrows;
+      transform: rotate(-45deg);
+    }
+  }
+  .next3 { 
+    @extend .next;
+    &:before {
+      right: 5px;
+      border-width: 3px 3px 0 0;
+      border-color: $arrows $arrows transparent transparent;
+      transform: rotate(45deg);
+    }
+  }
+  .frame3 {
+    @extend .frame;
+    .item3 {
+      display: inline-block;
+      position: absolute;
+      top: 0; bottom: 0;
+      width: 10%; 
+      height: 100%;
+      .inset3 {
+        @extend .inset;
+        margin: $gap * 2 $gap;
+        padding: 15px;
+        .title3 { 
+          @extend .title;
+        }
+        .caption3 { 
+          @extend .caption;
+          img{
+            width:100%;
+          }
+        }
+      }
+    }
+  }
+}
+#slider2 {
+  @extend #slider;
+  height:$height2;
+  .trigger2 {
+    @extend .trigger;
+    &:hover { 
+      background: rgba(255,255,255,.5); 
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      width: 10px; height: 10px;
+      margin: auto;
+      border-style: solid;
+    }
+  }
+  .prev2 { 
+    @extend .prev;
+    &:before {
+      left: 5px;
+      border-width: 3px 0 0 3px;
+      border-color: $arrows transparent transparent $arrows;
+      transform: rotate(-45deg);
+    }
+  }
+  .next2 { 
+    @extend .next;
+    &:before {
+      right: 5px;
+      border-width: 3px 3px 0 0;
+      border-color: $arrows $arrows transparent transparent;
+      transform: rotate(45deg);
+    }
+  }
+  .frame2 {
+    @extend .frame;
+    .item2 {
+      display: inline-block;
+      position: absolute;
+      top: 0; bottom: 0;
+      width: 10%; 
+      height: 100%;
+      .inset2 {
+        @extend .inset;
+        margin: $gap * 2 $gap;
+        padding: 15px;
+        .title2 { 
+          @extend .title;
+        }
+        .caption2 { 
+          @extend .caption;
+          img{
+            width:100%;
+          }
+        }
+      }
+    }
+  }
+}
+#slider1 {
+  @extend #slider;
+  height:$height2;
+  .trigger1 {
+    @extend .trigger;
+    &:hover { 
+      background: rgba(255,255,255,.5); 
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      width: 10px; height: 10px;
+      margin: auto;
+      border-style: solid;
+    }
+  }
+  .prev1 { 
+    @extend .prev;
+    &:before {
+      left: 5px;
+      border-width: 3px 0 0 3px;
+      border-color: $arrows transparent transparent $arrows;
+      transform: rotate(-45deg);
+    }
+  }
+  .next1 { 
+    @extend .next;
+    &:before {
+      right: 5px;
+      border-width: 3px 3px 0 0;
+      border-color: $arrows $arrows transparent transparent;
+      transform: rotate(45deg);
+    }
+  }
+  .frame1 {
+    @extend .frame;
+    .item1 {
+      display: inline-block;
+      position: absolute;
+      top: 0; bottom: 0;
+      width: 10%; 
+      height: 100%;
+      .inset1 {
+        @extend .inset;
+        margin: $gap * 2 $gap;
+        padding: 15px;
+        .title1 { 
+          @extend .title;
+        }
+        .caption1 { 
+          @extend .caption;
+          img{
+            width:100%;
+          }
+        }
+      }
+    }
+  }
+}
+.bajada{
+  text-align:center;
+}
+.boton{
+  text-align:center;
+  margin-bottom: 50px;
+}
+
+footer {
+  .footer-mobile {
+    .fono-mobile {
+      border: 1px solid blue;
+      p {
+        text-align: center;
+      }
+      strong {
+        margin-bottom: 13px;
+        display: block;
+        margin-right: 3px;
+      }
+      .bordeAzul {
+        width: 100%;
+      }
+      a {
+        font-size: 12px;
+        text-decoration: none;
+        background-color: transparent;
+        width: 100%;
+        i {
+          font-size: 40px;
+          position: relative;
+          top: 5px;
+          margin-right: 10px;
+        }
+        b {
+          font-size: 33px;
+          display: inline-block;
+          height: 38px;
+
+        }
+      }
+    }
+    .m-socials-icons {
+      text-align: center;
+      .fa {
+        font-size: 30px;
+        margin: 0 20px;
+        padding: 7px 15px;
+        text-decoration: none;
+        background-color: transparent;
+      }
+    }
+    p {
+      text-align: center;
+      color: #000;
+      font-size: 11px;
+      a {
+        color: #000;
+        font-size: 16px;
+        text-decoration: none;
+        background-color: transparent;
+      }
+    }
+    span {
+      margin: 0 10px;
+    }
+  }
+}
+.btn-primary{
+  width: 400px;
+  height: 40px;
+}
+.publicidad{
+margin-bottom: 50px;
+  img{
+  width:100%;
+}
+}
+footer{
+  margin-top: 50px;
+}

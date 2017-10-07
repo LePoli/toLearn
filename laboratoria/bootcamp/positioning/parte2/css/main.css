@@ -1,0 +1,25 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	width: 200px;
+	height: 200px;
+	position: relative;
+}
+.red {
+	background-color: #ee3e64;
+	/*left: 200px;*/
+}
+.blue{
+	background-color: #44accf;
+	/*right: 10px;
+	left: 300px;
+	top: 100px;
+	bottom: 500px;*/
+}
+.green{
+	background-color: #b7d84b;
+	/*bottom: 400px;
+	left: 1100px; */
+}

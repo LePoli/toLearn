@@ -1,0 +1,100 @@
+.blue-c
+  background-color: #009CDE !important
+  width: 26px
+  height: 26px
+  line-height: 26px
+  border-radius: 100%
+  position: relative
+  color: white
+  text-align: center
+  font-size: 14px
+  font-weight: 400
+.blue-l
+  border-left: 3px solid #009CDE !important
+  position: absolute
+  left: 33px
+  bottom: -28px
+  top: 10px
+  z-index: -1
+.stepper
+  padding-top: 20px
+  .step
+    position: relative
+    min-height: 20px
+    padding-bottom: 14px
+    padding-left: 22px
+    padding-top: 6px
+    > div
+      &:first-child
+        position: static
+        height: 0
+      &:last-child
+        margin-left: 32px
+        padding-left: 16px
+        min-height: 24px
+  .circle
+    background: $blue-button
+    width: 26px
+    height: 26px
+    line-height: 26px
+    border-radius: 100%
+    position: relative
+    color: white
+    text-align: center
+    font-size: $regular-font
+    font-weight: $regular
+  .line
+    position: absolute
+    border-left: 3px solid $blue-button
+    left: 33px
+    bottom: -28px
+    top: 10px
+    z-index: -1
+  .step:last-child .line
+  .title
+    line-height: 32px
+    font-weight: 500
+  .body
+    padding-bottom: 28px
+    padding-top: 8px
+  .description
+    line-height: 0.1
+    font-size: 1em
+    padding-bottom: 24px
+    color: #989898
+  &.horizontal
+    line-height: 72px
+    position: relative
+    .step
+      display: inline-block
+      .line, .circle, .title
+        display: inline-block
+      .line
+        border-left: 0px
+        position: inherit
+        border-top: 1px solid gainsboro
+        width: 100px
+        margin-bottom: 0px
+        margin-left: 8px
+        margin-right: 8px
+      .title
+        margin-left: 8px
+      .body
+        line-height: initial
+      > div:last-child
+        position: absolute
+        width: 90vw
+        top: 93px
+        margin-left: 0px
+        padding-left: 0px
+        margin: auto
+  .step.inactive
+    .title
+      color: $black
+      font-weight: 400
+    .body
+      display: none
+    .circle
+      background-color: $grey-buttons
+    .line
+      border-left: 3px solid $grey-buttons

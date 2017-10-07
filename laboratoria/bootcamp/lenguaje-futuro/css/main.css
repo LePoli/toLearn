@@ -1,0 +1,74 @@
+.fondo{
+	background-image: url("../img/grupal.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 555px;
+	padding-top: 40px;
+}
+
+.list{
+	list-style: none;
+}
+.item-list{
+	display: inline-block;
+}
+.imgcpc{
+	width: 100%;
+	height: 100%;
+}
+.boton{
+	background-color: orange;
+	padding: 2% 3% ;
+	border: orange 1px solid;
+	border-radius: 5%;
+}
+.align-c{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+.align-r{
+	text-align: right;
+	font-family: 'Open Sans', sans-serif;
+}
+.align-l{
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+}
+.deco-none{
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+.espaciolink{
+	padding-right:15px;
+}
+.padig-b-h{
+	padding-bottom: 5%;
+}
+.b-txt{
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+}
+.imgpad{
+	padding-top:5%;
+	padding-bottom:5%;
+}
+.grey-foot{
+	background-color: #524E4E;
+}
+.w-txt{
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-weight: lighter;
+	font-size:smaller;
+	padding: 1%;
+}
+.bold{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+.imglog{
+	padding-top:4%;
+}
+.padrow{
+	padding-bottom: 2%;
+}

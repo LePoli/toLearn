@@ -1,0 +1,18 @@
+.box{
+	height: 100px;
+	width: 25%;
+}
+.contenedor{
+	height: 300px;
+	width: 600px;
+	border: 2px gray solid;
+}
+.amarillo{
+	background-color: yellow;
+}
+.rojo{
+	background-color: red;
+}
+.azul{
+	background-color: blue;
+}

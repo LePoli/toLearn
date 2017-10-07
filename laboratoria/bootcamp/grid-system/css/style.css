@@ -1,0 +1,96 @@
+.head{
+	background-color: #404040;
+	text-align: center;
+}
+.list{
+	list-style:none;
+	overflow: hidden;
+	align-content: right;
+}
+.lfut{
+	text-align:center;
+	list-style:none;	 
+	overflow: hidden;
+	align-content: center;
+}
+.item{
+	float: left;	
+	margin-right: .5%;
+	margin-left: .5%;
+	margin-top:10%;
+	font-size: 100%;	
+}
+.episodios{
+	padding: 2%;
+}
+.link{
+	text-decoration: none;
+	color: white;
+	margin: auto;
+}
+.futl{
+	float: left;	
+	font-size: 100%;	
+}
+.icono{
+	height: 5%;
+	width: 5%;
+}
+.link2{
+	text-decoration: none;
+}
+.latestpic{
+	height: 100%;
+	width: 100%;
+	border: 2px white solid;
+}
+.img{
+	border:1px #D8D8D8 solid;
+}
+.footbod{
+	background-color: #404040;
+}
+.hlr{
+	background-color: #F2F2F2;
+	margin: auto;
+	padding-bottom: 1%;
+}
+.separ{
+	margin-bottom: 1%;
+}
+.lateral{
+	text-align: left;
+}
+.linea{
+	border: 1px #D8D8D8 solid;
+	margin-bottom: 4%;
+}
+
+.uno{
+	font-size:1em;
+	color: white;
+	font-weight: 1px;
+}
+.dos{
+	text-align: center;
+	margin-left: 1%;
+	text-decoration: none;
+	color: #D8D8D8;
+	font-size: 1em;
+}
+.tres{
+	color: grey;
+	font-size:.8em;
+}
+.linkfoot{
+	text-decoration: none;
+}
+.padingfoot{
+	padding-right:20%;
+	padding-left:20%;
+	margin-bottom:1%;
+	margin-top:1%;
+}
+.greylink{
+	color: grey;
+}

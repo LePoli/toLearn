@@ -1,0 +1,41 @@
+.box{
+	border: 2px transparent solid;
+	margin-bottom: 10px;
+}
+
+.solo{
+	background-color: green;
+	width: 100px;
+	/*padding: 50px;*/
+	height: 100px;
+}
+
+.contenedor{
+	background-color: yellow;
+	width: 360px;
+	/*padding: 10px;*/
+	height: 120px;
+}
+.dupla{
+	background-color: red;
+	width: 100px;
+	/*padding: 50px;*/
+	height: 100px;
+	display: inline-block;
+}
+.solito{
+	background-color: brown;
+	width: 100px;
+	/*padding: 50px;*/
+	height: 100px;
+}
+
+.grupo{
+	margin-top: 8px;
+	margin-left: 13px;
+	width: 100px;
+	height: 100px;
+	/*padding: 40px;*/
+	background-color: black;
+	display: inline-block;
+}

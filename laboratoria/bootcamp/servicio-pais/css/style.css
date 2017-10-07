@@ -1,0 +1,67 @@
+* {
+	font-family: arial;
+}
+video {
+    width: 100%;
+    height: auto;
+    border: 2px solid white;
+}
+
+.videologin {
+	margin-top: 5%;
+}
+
+.btnfacebook {
+	margin-top: 2%;
+}
+
+.logo {
+	margin-top: 2%;
+}
+
+h4, h5 {
+	color: white;
+	margin-top: 0;
+	padding-top: 1%;
+	margin-top: 2%;
+}
+
+input {
+	margin-top: 1%;
+}
+
+.registro {
+	background-color: rgba(0, 0, 0, .7);
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+a {
+	color: white;
+} 
+
+body {
+	background-image: url("http://s1.picswalls.com/wallpapers/2014/08/01/chile-desktop-wallpaper_010438868_135.jpg");
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+	text-transform: uppercase;	
+}
+
+.menu {
+	background-color: white;
+}
+
+button {
+	margin-top:5px;
+}
+
+.form-group {
+	margin: 0 auto;
+}

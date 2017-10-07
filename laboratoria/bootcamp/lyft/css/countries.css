@@ -1,0 +1,11 @@
+.background-countries{
+	background-image: url(../img/boton-posible.png);
+	background-size: cover;
+	background-position: center;
+}
+.text-white{
+	color: white;
+	font-size: 20px;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}

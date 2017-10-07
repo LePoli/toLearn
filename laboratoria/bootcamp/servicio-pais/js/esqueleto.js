@@ -1,0 +1,14 @@
+$(document).ready(function(){
+	$('#container-formacion').hide();
+	$('#container-empleo').hide();
+	$('#container-comunidad').hide();
+	$('#formacion').on('click',function(ev){
+		$('#container-formacion').toggle('slow');
+	});
+	$('#empleo').on('click',function(ev){
+		$('#container-empleo').toggle('slow');
+	});
+	$('#comunidad').on('click',function(ev){
+		$('#container-comunidad').toggle('slow');
+	});
+});

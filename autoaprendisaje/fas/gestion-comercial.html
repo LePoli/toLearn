@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--character sets-->
+	<meta charset="utf-8">
+	<!--celphone viewport-->
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1,width=device-width">
+	<title>Gestion Comercial</title>
+	<!--css-->
+	<link rel="stylesheet" type="text/css" href="css/materialize.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<!--<header class="div-header">
+	</header>
+	<section class="div-menu-background">
+		<div class="row margin-aligmnt-row ">
+			<div class="col s2 left-align">
+				<a href="index.html"><i class="material-icons back">arrow_back</i></a>
+			</div>
+			<div class="col s10 valign-wrapper">
+				<h1 class="title-auditoria left-align">
+					
+				</h1>
+			</div>
+		</div>
+	</section>-->
+	<section class="div-menu-background">
+	<div class="row progress-div margin-aligmnt-row">
+		<div class="col s9 gestion-comercial">
+			Gestión comercial
+		</div>
+		<div class="col s3 page-step">
+			1 / 10
+		</div>
+	</div>
+	<div class="progress">
+      	<div class="determinate" id="gestion-progress"></div>
+  	</div>
+	</section>
+	<section>
+		<div class="row question-row padding-aligmnt-row">
+			<div class="col s12">
+				<p class="to-do-title">
+					Panel de Control, reporte unico a revisar con Gerente Local
+				</p>
+				<p class="to-do-descrption">
+					QF tiene su carpeta con datos rellevantes de su gestión y esta en conocimientos de ellos?
+				</p>				
+			</div>
+			<div class="col s12 btn-col-12">
+				<div class="row">
+					<div class="col s10">
+						<div class="row btn-row">
+							<div class="col s4 button-container">
+								<a href="javascript:{}" class="btn btn-block first-button">Sí</a>					
+							</div>
+							<div class="col s4 button-container">
+								<a href="javascript:{}" class="btn btn-block">No</a>					
+							</div>
+							<div class="col s4 button-container">
+								<a href="javascript:{}" class="btn btn-block last-button">N/A</a>					
+							</div>
+						</div>
+					</div>
+					<div class="col s2">
+						<a href="fotos.html">
+							<div class="add-photo-container">
+								<i class="material-icons camera-add">add_a_photo</i>
+							</div>
+							<div class="camera-add-progres">
+								<span>0</span> / 5
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 warning-alert hide">
+				<i class="material-icons">warning</i> <span>Debe responder este item para continuar.</span>
+			</div>
+		</div>
+		<div class="row question-row-var padding-aligmnt-row">
+			<div class="col s12">
+				<p class="to-do-title">
+					Reunión con el personal
+				</p>
+				<p class="to-do-descrption">
+					¿Existe calendario de reuniones fiermado por el personal?
+				</p>				
+			</div>
+			<div class="col s12 btn-col-12">
+				<div class="row">
+					<div class="col s10">
+						<div class="row btn-row">
+							<div class="col s4 button-container">
+								<a href="javascript:{}" class="btn btn-block first-button">Sí</a>					
+							</div>
+							<div class="col s4 button-container">
+								<a href="javascript:{}" class="btn btn-block">No</a>					
+							</div>
+							<div class="col s4 button-container">
+								<a href="javascript:{}" class="btn btn-block last-button">N/A</a>					
+							</div>
+						</div>
+					</div>
+					<div class="col s2">
+						<a href="fotos.html">
+							<div class="add-photo-container">
+								<i class="material-icons camera-add">add_a_photo</i>
+							</div>
+							<div class="camera-add-progres">
+								<span>0</span> / 5
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 warning-alert hide">
+				<i class="material-icons">warning</i> <span>Debe responder este item para continuar.</span>
+			</div>
+		</div>
+		<div class="row question-row-var padding-aligmnt-row">
+			<div class="col s12">
+				<p class="to-do-title">
+					Tickets totales y por vendedor
+				</p>
+				<p class="to-do-descrption">
+					¿Esta controlado los Tickets Totales y por Vendedor según año anterior y Zona?
+				</p>				
+			</div>
+			<div class="col s12 btn-col-12">
+				<div class="row">
+					<div class="col s10">
+						<div class="row btn-row">
+							<div class="col s4 button-container">
+								<a href="javascript:{}" class="btn btn-block first-button">Sí</a>					
+							</div>
+							<div class="col s4 button-container">
+								<a href="javascript:{}" class="btn btn-block">No</a>					
+							</div>
+							<div class="col s4 button-container">
+								<a href="javascript:{}" class="btn btn-block last-button">N/A</a>					
+							</div>
+						</div>
+					</div>
+					<div class="col s2">
+						<a href="fotos.html">
+							<div class="add-photo-container">
+								<i class="material-icons camera-add">add_a_photo</i>
+							</div>
+							<div class="camera-add-progres">
+								<span>0</span> / 5
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 warning-alert hide">
+				<i class="material-icons">warning</i> <span>Debe responder este item para continuar.</span>
+			</div>
+		</div>
+		<div class="row question-row-var padding-aligmnt-row" id="safe-screen">
+			<div class="col s12">
+				<p class="to-do-title">
+					Tasa Grandes Personas
+				</p>
+				<p class="to-do-descrption">
+					¿Esta en conocimiento de la Tasa de Enrolamiento Grandes Personas?
+				</p>				
+			</div>
+			<div class="col s12 btn-col-12">
+				<div class="row">
+					<div class="col s10">
+						<div class="row btn-row">
+							<div class="col s4 button-container">
+								<a href="javascript:{}" class="btn btn-block first-button">Sí</a>					
+							</div>
+							<div class="col s4 button-container">
+								<a href="javascript:{}" class="btn btn-block">No</a>					
+							</div>
+							<div class="col s4 button-container">
+								<a href="javascript:{}" class="btn btn-block last-button">N/A</a>					
+							</div>
+						</div>
+					</div>
+					<div class="col s2">
+						<a href="fotos.html">
+							<div class="add-photo-container">
+								<i class="material-icons camera-add">add_a_photo</i>
+							</div>
+							<div class="camera-add-progres">
+								<span>0</span> / 5
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 warning-alert hide">
+				<i class="material-icons">warning</i> <span>Debe responder este item para continuar.</span>
+			</div>
+		</div>
+		<div class="row question-row-var padding-aligmnt-row">
+			<div class="col s12">
+				<p class="to-do-title">
+					Tasa Oferta Consumo
+				</p>
+				<p class="to-do-descrption">
+					¿Esta en conocimiento de la Tasa de Consumo versus su Tasa Objetivo?
+				</p>				
+			</div>
+			<div class="col s12 btn-col-12">
+				<div class="row">
+					<div class="col s10">
+						<div class="row btn-row">
+							<div class="col s4 button-container">
+								<a href="javascript:{}" class="btn btn-block first-button">Sí</a>					
+							</div>
+							<div class="col s4 button-container">
+								<a href="javascript:{}" class="btn btn-block">No</a>					
+							</div>
+							<div class="col s4 button-container">
+								<a href="javascript:{}" class="btn btn-block last-button">N/A</a>					
+							</div>
+						</div>
+					</div>
+					<div class="col s2">
+						<a href="fotos.html">
+							<div class="add-photo-container">
+								<i class="material-icons camera-add">add_a_photo</i>
+							</div>
+							<div class="camera-add-progres">
+								<span>0</span> / 5
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 warning-alert hide">
+				<i class="material-icons">warning</i> <span>Debe responder este item para continuar.</span>
+			</div>
+		</div>
+		<div class="row">
+      		<form class="col s12">
+       			<div class="row">
+          			<div class="input-field col s12">
+            			<textarea id="textarea1" class="materialize-textarea" length="50"></textarea>
+           				<label for="textarea1">Observación General</label>
+          			</div>
+        		</div>
+      		</form>
+    	</div>
+	</section>
+	<footer class="background-footer-button">
+		<div class="row">
+			<div class="col s9 center-align">
+				<a class ="end" href="index.html?step=gestion"> Terminar </a>
+			</div>
+			<div class="col s3 center-align">
+				<i class="material-icons">keyboard_arrow_right</i>
+			</div>			
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="js/materialize.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

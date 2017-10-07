@@ -1,0 +1,150 @@
+
+/*css index*/
+.imagenlogo{
+	width: 100%;
+	height: auto;
+}
+.index-logoBCI{
+	width: 80%;
+	height: auto;
+}
+.texto-appsegura{
+	margin-top: 60px;
+	padding-right: 20px;
+}
+.texto-appsegura p{
+	margin: 0;
+	text-align: right;
+	color: rgb(0, 142, 50);
+	font-size: 20px;
+}
+.imagen-candado{
+	width: 50%;
+	height: auto;
+	padding-top: 10%;
+}
+.index-candado{
+	text-align: center;
+	margin-top: 60px;
+	width: 60%;
+	height: auto;
+}
+.texto-bienvenido span{
+	font-weight: bold;
+}
+.ingresar{
+	margin-top: 5%;
+}
+.ingresar p{
+	font-size: 17px;
+}
+.ingresar input{
+	font-size: 20px;
+}
+.ingresar-clave{
+	border: 1px solid rgb(0, 142, 50);
+	border-radius: 0;
+}
+.btn{
+	display: block;
+	width: 100%;
+	background-color: rgb(219, 219, 219);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 0;
+}
+.btn a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+.desbloquear-clave{
+	margin-top: 3%;
+	text-align: center;
+}
+.desbloquear-clave a{
+	text-decoration: none;
+	color: rgb(0, 142, 50);
+}
+@media (max-width: 600px){/*responsive para dispositivos pequeños*/
+	.texto-appsegura{
+		margin-top: 20px;
+	}
+	.texto-appsegura p{
+		font-size: 17px;
+	}
+	.imagen-candado{
+		width: 200%;
+	}
+	.index-candado{
+		margin-top: 15px;
+	}
+	.index-candado{
+		width: 100%;
+		margin-top: 20px;
+	}
+}
+/*fin css index*/
+/*mapa*/
+.fondo-hd {
+	height: 200px;
+	background-color:#EDEDED;
+	height: 800px;
+}
+/*inicio estilos compra*/
+
+.logo{
+	padding: 70px;
+	margin-left: 100px;
+}
+
+.local {
+    border-radius: 100px;
+    margin: 40px;
+}
+.exitosa{
+	font-weight: bolder;
+}
+
+.exitosa{
+	visibility: hidden;
+}
+
+.condiciones{
+	margin-left: 80px;
+}
+
+.boton{
+	margin-left: 330px;
+}
+
+
+=======
+.fondo {
+	background-color:#EDEDED;
+	height: 80%;
+}
+ .mapa{  
+ margin: 0 auto;
+  display: block;
+}
+.relampago{
+	font-family:'Open Sans', sans-serif;;
+
+}
+.tamaño{
+	height: 10%;
+	width: 50%;
+
+}
+.tamaño-img{
+	width: 100%;
+	height: 100%;
+}
+.mapa-hg{
+	height: 60%;
+
+}
+
+/*mapa*/
+>>>>>>> 601fd4a38a5b4a21ef7713dee2f7e3fe23849b3c

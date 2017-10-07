@@ -1,0 +1,91 @@
+body{
+margin:0;
+padding:0;
+line-height: 1.5em;
+}
+
+b{font-size: 110%;}
+em{color: red;}
+
+
+#topsection{
+background: #EAEAEA;
+height: 90px;
+}
+
+#topsection h1{
+margin: 0;
+padding-top: 15px;
+}
+
+#contentwrapper{
+float: left;
+width: 100%;
+}
+
+#contentcolumn{
+margin-left: 200px;
+}
+
+#leftcolumn{
+float: left;
+width: 200px;
+margin-left: -100%;
+background: #C8FC98;
+}
+
+#footer{
+clear: left;
+width: 100%;
+background: black;
+color: #FFF;
+text-align: center;
+padding: 4px 0;
+}
+
+#footer a{
+color: #FFFF80;
+}
+
+.innertube{
+margin: 10px;
+margin-top: 0;
+}
+@media (max-width: 600px){
+	#contentwrapper{
+	float: none;
+	}
+	
+	#leftcolumn{
+	float: none;
+	width: 100%;
+	margin-left: 0;
+	}
+	
+	#contentcolumn{
+	margin-left: 0;
+	}
+}
+
+table{
+	border:#6495ED 2px solid;
+	border-collapse:collapse;		
+}
+td,th, tr{
+	border:#6495ED 2px solid;
+}
+.tabla{	
+	margin-right:5px;
+	margin-left:5px;	
+}
+
+/* ####### Acá va su código ####### */
+img {
+	width:100px;
+	height:100px;
+	border: 5px dashed orange; 
+}
+
+img:hover {
+	border: 5px dashed blue;
+}

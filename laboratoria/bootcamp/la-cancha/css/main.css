@@ -1,0 +1,58 @@
+.verde {
+	background-color: lightgreen;
+	width: 900px;
+	height: 500px;
+	border: 2px white solid;	
+	padding: 20px;
+	position: relative;
+}
+
+.interno {	
+	height: 100%;
+	position: relative;
+	border: 1px solid white;
+}
+.izq {
+	position: relative;
+	left: -1px;	
+}
+
+.der {
+	position: absolute;
+	right: -1px
+}
+
+.areachica {
+  border: 1px solid white;
+  width: 115px;
+  height: 190px;
+  top: 115px;	
+}
+
+
+.centro {
+	border: 1px solid white;	 
+	width: 100px;
+	height: 100px;
+	position: absolute;
+    left: 40%;
+    top: 35%;	
+}
+
+.pelota1 {
+  position: absolute;
+  top: 50px;
+  left: 430px;
+}
+
+.pelota2 {
+  position: absolute;
+  top: 120px;
+  left: 100px;
+}
+
+.pelota3 {
+  position: absolute;
+  top: 280px;
+  left: 710px;
+}
