@@ -1,0 +1,277 @@
+.colorcuadro{
+	background-color: rgba(35, 32, 32, .5);
+}
+.mosaico{
+	background-image: url(../img/tile2.png);
+	background-size: initial;
+	background-position: left;
+	background-repeat: repeat;
+}
+.bckg-grey{
+	background-color: #EFECEC;
+}
+.bckg-1{
+	background-image: url(../img/dance_12.jpg);
+	background-size: initial;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	height: 100%;
+	width:100%;
+	zoom: 0.65;	
+}
+.bckg-2{
+	background-image: url(../img/breakdance.jpg);
+	background-size: initial;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+	width:100%;
+	zoom: 0.08;		
+}
+.bckg-3{
+	background-image: url(../img/lirical-jazz.jpg);
+	background-size: initial;
+	background-position: center;
+	background-repeat: no-repeat;		
+	height: 100%;
+	width:100%;
+	zoom:0.27;
+}
+.bckg-4{
+	background-image: url(../img/arabe.jpg);
+	background-size: initial;
+	background-position: center;
+	background-repeat: no-repeat;		
+	height: 100%;
+	width:100%;
+	zoom:0.55;
+}
+.bckg-5{
+	background-image: url(../img/little.jpg);
+	background-size: initial;
+	background-position: center;
+	background-repeat: no-repeat;		
+	height: 100%;
+	width:100%;
+	zoom:0.86;
+}
+.bckg-6{
+	background-image: url(../img/yoga.jpg);
+	background-size: initial;
+	background-position: bottom;
+	background-repeat: no-repeat;		
+	height: 100%;
+	width:100%;
+	zoom:0.4;
+}
+.bck-dgrey{
+	background-color: rgba(37, 36, 36, .5);
+	padding:5%;
+}
+.wd-hg-50{
+	width: 100px;
+	height: 390px;
+	margin-top: 1%;
+	margin-bottom:1%;
+}
+
+
+
+
+
+
+.fondoazul{
+	background-color: #050552; 
+}
+.fondopuntas{
+	background-image: url(../img/shoes_1.jpg);
+	background-size: initial;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+.padding-t-b{
+	padding-bottom: 6%;
+	padding-top: 2%;
+}
+.titpad, .ppad{
+	padding: 2%;
+}
+.studio{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+.jstudio{
+	color: white;
+	font-size: 16px;
+	font-weight: lighter;
+	text-align: left;
+	padding-right:80px;
+}
+.boton{
+	color: white;
+	background-color: #050552;
+	border: 1px #050552 solid;
+	padding: 8px 20px 8px 20px;	
+}
+.txt-c{
+	text-align: center;
+}
+.txt-l{
+	text-align: left;
+}
+
+.padding2{
+	padding-top:2%;
+	padding-bottom: 11%;
+}
+.adorno1{
+	width: 10%;
+	height: 10%;
+}
+.paddinglateral{
+	padding-right: 20%;
+	padding-left: 20%;
+}
+.paddingtbtext{
+	padding-top:5%;
+}
+.txt-black-thin{
+	font-size: 20px;
+	color: black;
+}
+.btnodclases{
+	padding: 10px 50px 10px 50px;
+	color: white;
+	background-color: #050552;
+	border: 1px #050552 solid;
+	border-radius: 2%;
+}
+.btnodclases2{
+	padding: 20px 195px 20px 195px;
+	color: white;
+	background-color: #050552;
+	border: 1px #050552 solid;
+	border-radius: 2%;
+	position: relative;
+	top: -60px;
+	left: 31%;
+}
+.pdcpc{
+	padding:5%;
+}
+
+.divimg1{
+	background-image: url(../img/instructor_4.jpg);
+	float: left;
+	height: 100%;
+	zoom: 0.8;
+	width: 50%;
+	display: inline-block;
+}
+.divimg2{
+	background-image: url(../img/profesor_9.jpg);
+	float: left;
+	height: 100%;
+	zoom: 1.15;
+	width: 50%;
+	display: inline-block;
+}
+.margin{
+	height: auto;
+	width: 100%;
+}
+.fntszgrnd{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+}
+.mapa{
+	border: 1px grey solid;
+	/*allowfullscreen*/
+}
+.txt-w{
+	color: white;
+}
+.txt-r{
+	text-align: right;
+}
+.txt-small{
+	font-size:smaller;
+}
+.espacioframe{
+	height: 300px;
+	width: 550px;
+}
+.paddingleft{
+	padding-left: 10%;
+}
+.form{
+	width: 450px;
+	margin: auto;
+	/*padding:10px 20px;*/
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+}
+.h2form{
+	color: #050552;
+	text-align: center;
+	margin:1px;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+input, textarea{
+	width: 100%;
+	margin-bottom:20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: none;
+	border: 1px grey solid;
+}
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;	
+}
+#boton{
+	background-color: #050552;
+	color: white;
+
+	padding: 10px;
+}
+#boton:hover{
+	cursor: pointer;
+}
+@media(max-width: 480px){
+	form{
+		width: 100%;
+	}
+}
+.grey{
+	color: grey;
+}
+.pdng1pc{
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+}
+.menu{
+	text-decoration: none;
+	color: black;
+}
+.sinbineta{
+	list-style: none;
+	display: inline-block;
+}
+
+.mrpdtxt{
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.martoptit{
+	margin-top: 2%;
+}

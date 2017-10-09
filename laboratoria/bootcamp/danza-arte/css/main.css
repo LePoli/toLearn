@@ -1,0 +1,227 @@
+
+.fot{
+	width: 100%;
+	height: 100%;
+}
+.row {
+	margin-left: -14px;
+	margin-right: -14px;
+}
+
+.row:before, .row:after{
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+
+.studiofondo{
+	background-image: url(../img/dance_1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.mosaico{
+	background-image: url(../img/textura_2.jpg);
+	background-size: initial;
+	background-position: left;
+	background-repeat: repeat;
+}
+.fondoazul{
+	background-color: #050552; 
+}
+.fondopuntas{
+	background-image: url(../img/shoes_1.jpg);
+	background-size: initial;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+.padding-t-b{
+	padding-bottom: 6%;
+	padding-top: 2%;
+}
+.titpad, .ppad{
+	padding: 3%;
+}
+.studio{
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+.jstudio{
+	color: white;
+	font-size: 16px;
+	font-weight: lighter;
+	text-align: left;
+	padding-right:80px;
+}
+.boton{
+	color: white;
+	background-color: #050552;
+	border: 1px #050552 solid;
+	padding: 8px 20px 8px 20px;	
+}
+.txt-c{
+	text-align: center;
+}
+.txt-l{
+	text-align: left;
+}
+.padding10-10{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.padding2{
+	padding-top:2%;
+	padding-bottom: 11%;
+}
+.adorno1{
+	width: 10%;
+	height: 10%;
+}
+.paddinglateral{
+	padding-right: 20%;
+	padding-left: 20%;
+}
+.paddingtbtext{
+	padding-top:5%;
+}
+.txt-black-thin{
+	font-size: 20px;
+	color: black;
+}
+.btnodclases{
+	padding: 10px 50px 10px 50px;
+	color: white;
+	background-color: #050552;
+	border: 1px #050552 solid;
+	border-radius: 2%;
+}
+.btnodclases2{
+	padding: 20px 195px 20px 195px;
+	color: white;
+	background-color: #050552;
+	border: 1px #050552 solid;
+	border-radius: 2%;
+	position: relative;
+	top: -60px;
+	left: 31%;
+}
+.pdcpc{
+	padding:5%;
+}
+
+.divimg1{
+	background-image: url(../img/instructor_4.jpg);
+	float: left;
+	height: 100%;
+	zoom: 0.8;
+	width: 50%;
+	display: inline-block;
+}
+.divimg2{
+	background-image: url(../img/profesor_9.jpg);
+	float: left;
+	height: 100%;
+	zoom: 1.15;
+	width: 50%;
+	display: inline-block;
+}
+.margin{
+	height: 350px;
+	width: 100%;
+}
+.fntszgrnd{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+}
+.mapa{
+	border: 1px grey solid;
+	/*allowfullscreen*/
+}
+.txt-w{
+	color: white;
+}
+.txt-r{
+	text-align: right;
+}
+.txt-small{
+	font-size:smaller;
+}
+.espacioframe{
+	height: 300px;
+	width: 550px;
+}
+.paddingleft{
+	padding-left: 10%;
+}
+.form{
+	width: 450px;
+	margin: auto;
+	/*padding:10px 20px;*/
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+}
+.h2form{
+	color: #050552;
+	text-align: center;
+	margin:1px;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+input, textarea{
+	width: 100%;
+	margin-bottom:20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: none;
+	border: 1px grey solid;
+}
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;	
+}
+#boton{
+	background-color: #050552;
+	color: white;
+
+	padding: 10px;
+}
+#boton:hover{
+	cursor: pointer;
+}
+@media(max-width: 480px){
+	form{
+		width: 100%;
+	}
+}
+.grey{
+	color: grey;
+}
+.pdng1pc{
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+}
+.menu{
+	text-decoration: none;
+	color: black;
+}
+.sinbineta{
+	list-style: none;
+	display: inline-block;
+}
+
+.mrpdtxt{
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.martoptit{
+	margin-top: 2%;
+}

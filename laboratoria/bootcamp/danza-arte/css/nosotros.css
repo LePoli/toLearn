@@ -1,0 +1,249 @@
+
+.first-teacher{
+	zoom:0.5;
+	background-image: url(../img/profesor_4.jpg);
+	background-position: top;
+	background-size: cover;
+}
+.second-teacher{
+	zoom:0.5;
+	background-image: url(../img/profesor_14.jpg);
+	background-position: top;
+	background-size: cover;
+}
+.thr-teacher{
+	zoom:0.4;
+	background-image: url(../img/profesor_1.jpg);
+	background-position: top;
+	background-size: inherit;
+}
+.fhr-teacher{
+	zoom: 0.27;
+	background-image: url(../img/profesor_10.jpg);
+	background-position: top;
+	background-size: initial;
+}
+.fth-teacher{
+	zoom: 0.599;
+	background-image: url(../img/profesor_11.jpg);
+	background-position: top;
+	background-size: initial;
+}
+.sth-teacher{
+	zoom: 0.3;
+	background-image: url(../img/profesor_12.jpg);
+	background-position: top;
+	background-size: initial;
+}
+.svth-teacher{
+	zoom: 0.365;
+	background-image: url(../img/profesor_9.jpg);
+	background-position: center;
+	background-size: initial;
+}
+.egth-teacher{
+	zoom: 0.32;
+	background-image: url(../img/profesor_15.jpg);
+	background-position: top;
+	background-size: initial;
+}
+.fot{
+	width: 100%;
+	height: 100%;
+}
+.row {
+	margin-left: -14px;
+	margin-right: -14px;
+}
+
+.row:before, .row:after{
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+.fondo1{
+	background-image: url(../img/dance_7.jpg);
+	background-size: cover;
+	background-position: center;	
+}
+
+.colorcuadro{
+	background-color: rgba(35, 32, 32, .5);
+}
+.mosaico{
+	background-image: url(../img/cubes.png);
+	background-size: initial;
+	background-position: left;
+	background-repeat: repeat;
+}
+.lineadivisoria{
+	border: 1px grey solid;
+	margin-top: 9%;
+	margin-bottom: 7%;
+	padding: 0;
+}
+.txt-g{
+	color: #CCC9C9;
+}
+.txt-c{
+	text-align: center;
+}
+.margin-top-8{
+	margin-top: 10%;
+}
+.margin-bottom-5{
+	margin-bottom:5%;
+}
+.padding-l-r-5{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.padding2{
+	padding-top:2%;
+	padding-bottom: 5%;
+}
+.marginleft{
+	margin-left: -110px;
+}
+.contentfot{
+	width: 20%;
+	height: 50%;
+}
+.contenttodo{
+	width: auto;
+	height: 250px;
+	margin-top: 2%;
+}
+.fondoazul{
+	background-color: #050552; 
+}
+.fondopuntas{
+	background-image: url(../img/shoes_1.jpg);
+	background-size: initial;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+.titpad, .ppad{
+	padding: 2%;
+}
+.studio{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+.jstudio{
+	color: white;
+	font-size: 16px;
+	font-weight: lighter;
+	text-align: left;
+	padding-right:80px;
+}
+.txt-l{
+	text-align: left;
+}
+.paddingtbtext{
+	padding-top:5%;
+}
+.txt-black-thin{
+	font-size: 20px;
+	color: black;
+}
+.pdcpc{
+	padding:5%;
+}
+.margin{
+	height: 350px;
+	width: 100%;
+}
+.fntszgrnd{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+}
+.txt-w{
+	color: white;
+}
+.txt-r{
+	text-align: right;
+}
+.txt-small{
+	font-size:smaller;
+}
+
+.paddingleft{
+	padding-left: 10%;
+}
+.form{
+	width: 450px;
+	margin: auto;
+	/*padding:10px 20px;*/
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+}
+.h2form{
+	color: #050552;
+	text-align: center;
+	margin:1px;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+input, textarea{
+	width: 100%;
+	margin-bottom:20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: none;
+	border: 1px grey solid;
+}
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;	
+}
+#boton{
+	background-color: #050552;
+	color: white;
+
+	padding: 10px;
+}
+#boton:hover{
+	cursor: pointer;
+}
+@media(max-width: 480px){
+	form{
+		width: 100%;
+	}
+}
+.grey{
+	color: grey;
+}
+.pdng1pc{
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+}
+.menu{
+	text-decoration: none;
+	color: black;
+}
+.sinbineta{
+	list-style: none;
+	display: inline-block;
+}
+
+.mrpdtxt{
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.martoptit{
+	margin-top: 2%;
+}
+.martop1{
+	margin-top:3%;
+}
